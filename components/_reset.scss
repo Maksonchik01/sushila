@@ -1,0 +1,119 @@
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main{
+  display: block;
+}
+html{
+	  height: 100%;
+  margin: 0;
+  padding: 0;
+    overflow-x: hidden;
+}
+body{
+  line-height: 1;
+    height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul{
+  list-style: none;
+}
+
+blockquote, q{
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after{
+  content: '';
+  content: none;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input{
+  -webkit-appearance: none;
+  border-radius: 0;
+}                                               
+:root {
+	--card-stroke: #fceab0;
+	--stroke: #1f2725;
+	--akcent: #f77f47;
+	--fon-vіdguki: #b4c05e;
+	--tekst: #3c2a1e;
+	--351615: #351615;
+	--osnovnі-kolori-primari: #b53a2d;
+	--osnovnі-kolori-secondary: #324e45;
+	--osnovnі-kolori-accent: #1f4466;
+	--osnovnі-kolori-highlight: #f2bf35;
+	--osnovnі-kolori-backdground: #fff3d1;
+	--osnovnі-kolori-textdark: #1d2324;
+	--osnovnі-kolori-text-light: #fef2d2;
+	--primary-primary-50: #fcf4f3;
+	--primary-primary-100: #f8e8e6;
+	--primary-primary-200: #f3d5d0;
+	--primary-primary-300: #ebb7af;
+	--primary-primary-400: #df8d81;
+	--primary-primary-500: #d0685a;
+	--primary-primary-600: #bd4e3f;
+	--primary-primary-700: #a84335;
+	--primary-primary-800: #83372c;
+	--primary-primary-900: #6e322a;
+	--primary-primary-950: #3b1711;
+	--secondary-secondary-1: #deece6;
+	--secondary-secondary-2: #93c0ad;
+	--secondary-secondary-3: #558774;
+	--secondary-secondary-4: #3a5c51;
+	--secondary-secondary-5: #2a3c36;
+	--accent-accent200: #cde1f3;
+	--accent-accent300: #abcfeb;
+	--accent-accent500: #6498d7;
+	--accent-accent700: #426cb8;
+	--accent-accent900: #334b77;
+	--highlight-highlight100: #faf0ce;
+	--highlight-highlight300: #ecc963;
+	--highlight-highlight500: #de9a3c;
+	--highlight-highlight600: #c3782f;
+	--highlight-highlight900: #6b391d;
+	--color-baskground: var(--highlight-highlight200);
+	--color-baskground-2: var(--highlight-highlight300);
+	--color-baskground-cart-1: var(--osnovnі-kolori-highlight);
+	--color-baskground-cart-2: var(--osnovnі-kolori-secondary);
+	--color-elementi: var(--osnovnі-kolori-accent);
+	--color-cart-btn: var(--osnovnі-kolori-secondary);
+	--color-text-cart-h3: var(--osnovnі-kolori-textdark);
+	--color-text-cart-h5: var(--osnovnі-kolori-textdark);
+	--color-text-cart-h5light: var(--osnovnі-kolori-text-light);
+	--color-text-cart-h3-light: var(--osnovnі-kolori-text-light);
+	--color-text--h1: var(--osnovnі-kolori-primari);
+	--color-text--h2: var(--osnovnі-kolori-textdark);
+	--color-cart-btn-2: var(--osnovnі-kolori-primari);
+	--highlight-highlight200: #f7d694;
+}
+:root {
+  --font-family: "Jura", sans-serif;
+  --second-family: "Roboto Condensed", sans-serif;
+  --third-family: "Inter", sans-serif;
+  --font3: "Roboto", sans-serif;
+  --font4: "Nunito", sans-serif;
+  --font5: "Baloo 2", sans-serif;
+  --font6: "Abril Fatface", sans-serif;
+  --font7: "Poppins", sans-serif;
+}

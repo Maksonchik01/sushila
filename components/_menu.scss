@@ -1,0 +1,31 @@
+.menu{
+    max-width: 1087px;
+margin: 0 auto;
+}
+.menu-list{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: repeat(2, auto);
+  gap: 50px 50px; 
+  width: 1087.5px; 
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.menu-list-item{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.menu-list-item-img{
+    display: block;
+    width: 100%;
+}
+.menu-list-item-title{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+text-align: center;
+color: var(--color-text-cart-h3);
+}
