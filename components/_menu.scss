@@ -3,14 +3,14 @@
 margin: 0 auto;
 }
 .menu-list{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); 
-  grid-template-rows: repeat(2, auto);
-  gap: 50px 50px; 
-  width: 1087.5px; 
+  display: flex;
+  gap: 50px; 
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+}
+.menu-list-second{
+    justify-content: center;
 }
 .menu-list-item{
 display: flex;

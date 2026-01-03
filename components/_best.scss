@@ -1,8 +1,9 @@
 .best{
-    background-image: url(../img/image\ 62.png);
-   background-size: cover;
+    background-image: url(../img/Топ\ 10\ \(1\).png);
+   background-size: cover ;
    background-position: center;
    margin-top: 50px;
+   padding-bottom: 122px;
 }
 .best-title{
     font-family: var(--font-family);
@@ -27,11 +28,12 @@ padding: 6px 12px;
 width: 264px;
 height: 249px;
 background: var(--color-text-cart-h3-light);
+
 }
 
-.best-list-item-box-img{
+.best-list-item-img{
     display: block;
-    
+    margin: 0 auto;
 }
 .best-list-item-box-1{
     display: flex;

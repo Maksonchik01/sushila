@@ -351,14 +351,15 @@ input {
 }
 
 .menu-list {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, auto);
-  gap: 50px 50px;
-  width: 1087.5px;
+  display: flex;
+  gap: 50px;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+}
+
+.menu-list-second {
+  justify-content: center;
 }
 
 .menu-list-item {
@@ -382,10 +383,11 @@ input {
 }
 
 .best {
-  background-image: url(../img/image\ 62.png);
+  background-image: url(../img/Топ\ 10\ \(1\).png);
   background-size: cover;
   background-position: center;
   margin-top: 50px;
+  padding-bottom: 122px;
 }
 
 .best-title {
@@ -415,8 +417,9 @@ input {
   background: var(--color-text-cart-h3-light);
 }
 
-.best-list-item-box-img {
+.best-list-item-img {
   display: block;
+  margin: 0 auto;
 }
 
 .best-list-item-box-1 {
@@ -468,4 +471,181 @@ input {
   width: 24px;
   height: 24px;
   background: var(--color-cart-btn-2);
+}
+
+.priorities {
+  max-width: 1124px;
+  margin: 0 auto;
+}
+
+.priorities-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  color: var(--color-text-cart-h3);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.priorities-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.priorities-list-item {
+  border-radius: 50px;
+  width: 536px;
+  height: 260px;
+  background: var(--color-baskground-cart-2);
+}
+
+.priorities-list-item-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 35px;
+}
+
+.priorities-list-item-box-left-img {
+  border: 6px solid var(--color-text-cart-h5light);
+  border-radius: 30px;
+  width: 200px;
+  height: 200px;
+}
+
+.priorities-list-item-box-right-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--color-text-cart-h5light);
+  max-width: 240px;
+  margin-bottom: 8px;
+}
+
+.priorities-list-item-box-right-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-text-cart-h5light);
+  max-width: 220px;
+}
+
+.reviews {
+  max-width: 1234px;
+  margin: 0 auto;
+  padding-bottom: 83px;
+}
+
+.reviews-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  color: #201e13;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.reviews-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 26.8px;
+}
+
+.reviews-list-item {
+  background: var(--color-text-cart-h3-light);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-1 {
+  border: 2.4px solid var(--color-elementi);
+  border-radius: 24px;
+  padding: 19px 12px;
+  width: 185px;
+  height: 341px;
+}
+
+.card-2 {
+  border: 2.7px solid var(--color-elementi);
+  border-radius: 27px;
+  padding: 21px 14px;
+  width: 208px;
+  height: 386px;
+}
+
+.card-3 {
+  border: 3px solid var(--color-elementi);
+  border-radius: 30px;
+  padding: 24px 16px;
+  width: 232px;
+  height: 404px;
+}
+
+.card-4 {
+  border: 2.7px solid var(--color-elementi);
+  border-radius: 27px;
+  padding: 21px 14px;
+  width: 208px;
+  height: 386px;
+}
+
+.card-5 {
+  border: 2.4px solid var(--color-elementi);
+  border-radius: 24px;
+  padding: 19px 12px;
+  width: 185px;
+  height: 341px;
+}
+
+.reviews-list-item-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--color-cart-btn-2);
+  margin-top: 19.2px;
+  margin-bottom: 12px;
+}
+
+.reviews-list-item-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--color-text-cart-h3);
+  max-width: 160px;
+  margin-bottom: 9.6px;
+}
+
+.reviews-button {
+  display: block;
+  margin: 0 auto;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 30px;
+  padding: 8px 14px;
+  width: 200px;
+  height: 40px;
+  background: var(--color-cart-btn);
+  margin-top: 38px;
+  margin-bottom: 83px;
+}
+
+.footer {
+  background-image: url(../img/футер.png);
 }/*# sourceMappingURL=style.css.map */
