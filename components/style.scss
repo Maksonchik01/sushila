@@ -1,6 +1,10 @@
 .bg {
   background:  var(--color-text-cart-h3-light);
 }
+.container{
+  max-width: 1190px;
+  margin: 0 auto;
+}
 @import "./reset";
 @import "./header";
 @import "./menu";
