@@ -1020,4 +1020,49 @@ input {
   width: 24px;
   height: 24px;
   background: var(--color-cart-btn-2);
+}
+
+.related-menu {
+  margin-top: 100px;
+}
+
+.history-title {
+  margin-top: 104px;
+  margin-bottom: 36px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #000;
+}
+
+.history-pictures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.history-text-1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.history-text-2 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 56px;
 }/*# sourceMappingURL=style.css.map */
