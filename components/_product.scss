@@ -85,4 +85,15 @@ height: 42px;
 }
 .product-box-right-list-item{
    width: calc(25% - 33.33px);
+   position: relative;
+}
+.product-box-right-list-item-btn{
+    position: absolute;
+    top: -15%;
+    right: 10%;
+    border-radius: 30px;
+background: var(--color-cart-btn-2);
+width: 30.19px;
+height: 30.19px;
+border: none;
 }
