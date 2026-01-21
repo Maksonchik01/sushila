@@ -46,22 +46,34 @@
         </nav>
       </header>
       <main>
-        <nav aria-label="Breadcrumb" class="breadcrumb-container">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item">
-      <a href="/">Главная</a>
-    </li>
-    <li class="breadcrumb-item">
-      <a href="/recipes">Рецепты</a>
-    </li>
-    <li class="breadcrumb-item">
-      <a href="/recipes/meat">Мясные блюда</a>
-    </li>
-    <li class="breadcrumb-item active" aria-current="page">
-      Запеченный подчеревок
+<section class="filter">
+  <ol class="filter-list">
+    <li class="filter-list-item">
+      <button class="filter-list-item-btn">Суші</button>
+        <button class="filter-list-item-btn">Роли</button>
+          <button class="filter-list-item-btn">Сети</button>
+            <button class="filter-list-item-btn">Салати</button>
+              <button class="filter-list-item-btn">Супи</button>
+                <button class="filter-list-item-btn">Суші бургери</button>
+                  <button class="filter-list-item-btn">Напої</button>
+                    <button class="filter-list-item-btn">Десерти</button>
     </li>
   </ol>
+          <nav aria-label="filter-Breadcrumb" class="breadcrumb-container">
+  <ol class="filter-breadcrumb">
+    <li class="filter-breadcrumb-item">
+      <a href="/">Меню</a>
+    </li>
+    <li class="filter-breadcrumb-item">
+      <a class="bfilter-readcrumb-item-link"  href="/recipes">Рецепты</a>
+    </li>
+    <li class="bfilter-readcrumb-item">
+      <a class="bfilter-readcrumb-item-link" href="/recipes/meat">Салати</a>
+    </li>
+
+  </ol>
 </nav>
+</section>
         <section class="related related-menu">
           <div class="related-box">
             <h2 class="related-box-title">Разом смакує</h2>

@@ -1,0 +1,26 @@
+.filter{
+    max-width: 1114px;
+    margin: 0 auto;
+}
+.filter-list{
+     margin-top: 37px;
+     margin-bottom: 26px;
+     display: flex;
+     align-items: center;
+   gap: 16px;
+}
+.filter-list-item-btn{
+    border-radius: 14px;
+padding: 10px 30px;
+background: var(--color-elementi);
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+text-align: center;
+color: var(--color-text-cart-h3-light);
+border: none;
+}
+.filter-breadcrumb{
+    display: flex;
+    gap: 10px;
+}
