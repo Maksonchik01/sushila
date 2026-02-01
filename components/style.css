@@ -140,6 +140,7 @@ input {
   display: flex;
   align-items: center;
   max-width: 1222px;
+  position: relative;
 }
 
 .header-nav-logo {
@@ -225,6 +226,66 @@ input {
   padding: 5px 20px;
   width: 176px;
   height: 34px;
+}
+
+.header-nav-pop-up {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  border: 3px solid var(--color-elementi);
+  border-radius: 0 0 50px 50px;
+  padding: 24px 61px;
+  width: 472px;
+  height: 542px;
+  background: var(--color-baskground);
+}
+
+.header-nav-pop-up-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000;
+  margin-top: 34px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header-nav-pop-up-title-number {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #000;
+  margin-bottom: 24px;
+}
+
+.header-nav-pop-up-input {
+  border: 2px solid var(--color-text-cart-h3);
+  border-radius: 10px;
+  padding: 10px 14px;
+  width: 350px;
+  height: 56px;
+  background: var(--color-text-cart-h3-light);
+  margin-bottom: 80px;
+}
+
+.header-nav-pop-up-btn {
+  margin: 0 auto;
+  display: block;
+  border: none;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 30px;
+  padding: 8px 24px;
+  width: 223px;
+  height: 40px;
+  background: var(--color-cart-btn);
 }
 
 .header-box {
