@@ -48,7 +48,7 @@
             <form class="header-nav-pop-up-form">
               <h3 class="header-nav-pop-up-title">Реєстрація</h3>
               <h4 class="header-nav-pop-up-title-number">Вкажіть мобільний номер </h4>
-              <input class="header-nav-pop-up-input" type="tel" placeholder="Телефон">
+              <input class="header-nav-pop-up-input" inputmode="numeric" pattern="[0-9]*" placeholder="Телефон">
               <button class="header-nav-pop-up-btn">Зареєструватися </button>
             </form>
           </div>
@@ -422,6 +422,9 @@
             </li>
           </ul>
           <button class="reviews-button">Залишити відгук</button>
+          <button class="btn">+</button>
+            <span class="span">0</span>
+          <button class="btn-1">-</button>
         </section>
       </main>
       <footer class="footer">
@@ -533,5 +536,6 @@
         </div>
       </footer>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
